@@ -1,0 +1,24 @@
+{% extends 'plantillas/BaseDos.html' %}
+{% block title %}Patcheras{% endblock %}
+{% block content %}
+        <h2>Patcheras</h2>
+        <table class="table table-bordered table info mt-5 text-center">
+                <thead>
+                        <tr>
+                                <th>Montante</th>
+                                <th>Patchera</th>
+                                <th>Numero de Bocas</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        {% for patch in patcheras %}
+                        <tr>
+                                <th>{{ patch.montante }}</th>
+                                <th>{{ patch.patchera }}</th>
+                                <th>{{ patch.num_bocas }}</th>                               
+                        </tr>
+                        {% endfor %}
+                </tbody>
+        </table>
+        
+{% endblock %}

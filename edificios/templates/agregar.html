@@ -1,0 +1,15 @@
+{% extends 'plantillas/BaseDos.html' %}
+{% block title %}Switches{% endblock %}
+{% block content %}
+
+    <h3>Agregar Apartamento</h3>
+    <div class="container">
+    <form method="POST">
+        {% csrf_token %}
+        {{ apartament_form.as_p }}
+
+        <button class="btn btn-success">Crear</button>
+        
+    </form>
+</div>
+{% endblock %}

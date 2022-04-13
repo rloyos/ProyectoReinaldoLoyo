@@ -1,0 +1,32 @@
+{% extends 'plantillas/BaseDos.html' %}
+{% block title %}Switches{% endblock %}
+
+{% block content %}
+
+        <h2>Switches</h2>
+        <table class="table table-bordered table info mt-5 text-center">
+                <thead>
+                        <tr>
+                                <th>Nombre de Switch</th>
+                                <th>Imagen</th>
+                                <th>Modelo</th>
+                                <th>Numero de Bocas</th>
+                                <th>Ip de Gestion</th>
+                                <th>Comentario</th>
+
+                        </tr>
+                </thead>
+                <tbody>
+                    {% for switch in switches %}
+                        <tr>
+                                <th>{{ switch.name_switch }}</th>
+                                <td> <img src="static/img/{{ switch.image_sw }}" alt="{{ switch.name_switch }}" width="150"></td>
+                                <td>{{ switch.modelo }}</td>
+                                <td>{{ switch.num_bocas }}</td>
+                                <td>{{ switch.ip_gestion }}</td>
+                                <td>{{ switch.comentario }}</td>
+                        </tr>
+                     {% endfor %}
+                </tbody>
+        </table>
+{% endblock %}

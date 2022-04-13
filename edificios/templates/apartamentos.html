@@ -1,0 +1,34 @@
+{% extends 'plantillas/BaseDos.html' %}
+{% block title %}Apartamentos{% endblock %}
+{% block content %}
+        <h2>Apartamentos</h2>
+        <table class="table table-bordered table info mt-5 text-center">
+                <thead>
+                        <tr>
+                                <th>Apartamento</th>
+                                <th>Nombre de AP</th>
+                                <th>Direccion IP</th>
+                                <th>MAC</th>
+                                <th>Switch</th>
+                                <th>Boca en Switch</th>
+                                <th>Patchera</th>
+                                <th>Boca en Patchera</th>
+
+                        </tr>
+                </thead>
+                <tbody>
+                        {% for apartamento in apartamentos %}
+                        <tr>
+                                <th>{{ apartamento.apartamento  }}</th>
+                                <th>{{ apartamento.nombreAP  }}</th>
+                                <th>{{ apartamento.dir_ip  }}</th>
+                                <th>{{ apartamento.mac_address  }}</th>
+                                <th>{{ apartamento.switch  }}</th>
+                                <th>{{ apartamento.boca_switch  }}</th>
+                                <th>{{ apartamento.patchera  }}</th>
+                                <th>{{ apartamento.boca_patchera  }}</th>                                
+                        </tr>
+                        {% endfor %}
+                </tbody>
+        </table>
+{% endblock %}
