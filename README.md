@@ -19,11 +19,11 @@ sqlparse==0.4.2
 
 tzdata==2022.1
 
-Visualizacion de Apartamentos
+<h2> Visualizacion de Apartamentos </h2>
 ![image](https://user-images.githubusercontent.com/103611636/163298219-e377067a-0fd0-4a4f-8f66-24dc0bf0b8b3.png)
 
-Visualizacion de Switches
+<h2>Visualizacion de Switches </h2>
 ![image](https://user-images.githubusercontent.com/103611636/163298278-ce48f0aa-c90f-4b2b-a743-29747d45626a.png)
 
-Vicualizacion de Menú
+<h2> Vicualizacion de Menú </h2>
 ![image](https://user-images.githubusercontent.com/103611636/163298911-7cc34076-1ed1-445b-839c-d9009091218c.png)
