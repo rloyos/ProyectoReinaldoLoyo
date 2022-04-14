@@ -8,11 +8,17 @@
 # las librerias usadas son la siguientes
 Librerias Usadas
 asgiref==3.5.0
+
 Django==4.0.3
+
 Pillow==9.1.0
+
 sqlparse==0.4.2
+
 tzdata==2022.1
+
 Visualizacion de Apartamentos
 ![image](https://user-images.githubusercontent.com/103611636/163298219-e377067a-0fd0-4a4f-8f66-24dc0bf0b8b3.png)
+
 Visualizacion de Switches
 ![image](https://user-images.githubusercontent.com/103611636/163298278-ce48f0aa-c90f-4b2b-a743-29747d45626a.png)
