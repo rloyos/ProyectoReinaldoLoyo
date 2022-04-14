@@ -1,5 +1,5 @@
 # ProyectoReinaldoLoyo Entrega Intermedia 
- - En este proyecto se aplican los conceptos visualizados en clase, la intension del mismo es practicar de forma practica la parte teorica.
+ - En este proyecto se aplican los conceptos vistos en clase, la intensión del mismo es poner en prática la parte teórica.
  - Se aplican conceptos de modelado de datos en el ORM de django (3 modelos)
  - Elaboracionde vistas (views) acorde a las necesidades del proyecto
  - Uso de Tags y elaboracion de templates
