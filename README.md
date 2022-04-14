@@ -4,9 +4,10 @@
  - Elaboracionde vistas (views) acorde a las necesidades del proyecto
  - Uso de Tags y elaboracion de templates
  - Uso de Include y herencia de Templates Base
- - Uso de Formulario de Carga de datos
+ - Uso de Formulario para de Carga de datos
  - las librerias usadas son la siguientes
  - Inclusión de Libreria Boostrap 
+ - Inclusion de Menú 
 # Librerias Usadas
 asgiref==3.5.0
 
@@ -23,3 +24,6 @@ Visualizacion de Apartamentos
 
 Visualizacion de Switches
 ![image](https://user-images.githubusercontent.com/103611636/163298278-ce48f0aa-c90f-4b2b-a743-29747d45626a.png)
+
+Vicualizacion de Menú
+![image](https://user-images.githubusercontent.com/103611636/163298911-7cc34076-1ed1-445b-839c-d9009091218c.png)
